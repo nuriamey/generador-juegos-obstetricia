@@ -1,1 +1,0 @@
-// Código del componente GeneradorJuegos va aquí (reducido por ahora)
