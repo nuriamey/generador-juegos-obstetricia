@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { UploadCloud, Download, MonitorPlay } from "lucide-react";
 import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf";
 
-pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js`;
+pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js`;
 
 function GeneradorJuegos() {
   const [pdfFile, setPdfFile] = useState(null);
